@@ -3,7 +3,8 @@ bible-traditional-chinese
 
 Application developer can use this API to get any verse from Traditional Chinese Bible, source from http://a2z.fhl.net/CBOL.html  API self contains entire Bible, no need to link remotely or access any database.
 
-
+Sample:
+<pre>
 import com.opensuodku.bible.tw.Bible;
 public class Demo1 {
 
@@ -22,7 +23,9 @@ public class Demo1 {
         }
     }
 }
+</pre>
 
+Result:
 <pre>
 1:1 起初，　神創造天地。
 1:2 地是空虛混沌，淵面黑暗；　神的靈運行在水面上。
